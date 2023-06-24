@@ -126,7 +126,7 @@ textarea.form-control {
 }
 .menu-open {
 	position: relative;
-	
+
 	.site-header {
 		position: fixed;
 	}
@@ -137,7 +137,7 @@ textarea.form-control {
 			color: $black;
 		}
 	}
-	
+
 	.site-navbar {
 		border: 10px solid #f8f9fa; 
 	}
@@ -560,7 +560,7 @@ textarea.form-control {
 			opacity: 1;
 		}
 	}
-	
+
 	.owl-nav {
 		position: absolute;
 		top: 50%;
@@ -624,7 +624,7 @@ textarea.form-control {
 			height: calc(100vh - 117px);
 			min-height: 700px;	
 			position: relative;
-			
+
 			.slider-text {
 				color: $white;
 				height: calc(100vh - 117px);
@@ -658,7 +658,7 @@ textarea.form-control {
 				}
 			}
 		}
-		
+
 		.owl-dots {
 			position: absolute;
 			bottom: 100px;
@@ -692,7 +692,7 @@ textarea.form-control {
 			padding-top: 0!important;
 			padding-bottom: 0!important;
 		}
-		
+
 		.owl-stage-outer {
 			padding-top: 30px;
 			padding-bottom: 30px;
@@ -700,7 +700,7 @@ textarea.form-control {
 		.slider-item {
 			height: inherit;
 			min-height: inherit;
-			
+
 			img {
 				margin-bottom: 0;
 
@@ -902,7 +902,7 @@ textarea.form-control {
 		a {
 			> div {
 				margin-top: -10px;
-				
+
 			}
 			.meta {
 				font-size: 13px;
@@ -958,7 +958,7 @@ textarea.form-control {
 				text-transform: uppercase;
 				// color: rgba(255,255,255,.5);
 			}
-			
+
 		}
 	}
 }
@@ -997,9 +997,9 @@ textarea.form-control {
 		}
 		&.active {
 			.page-link {
-				
+
 				background: $primary;
-				
+
 				box-shadow: 0 2px 7px 0  rgba(0,0,0,.2);
 			}
 		}
@@ -1219,7 +1219,7 @@ select {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 	}
-	
+
 
 	&, .front, .back {
 		width: 100%;
@@ -1329,7 +1329,7 @@ select {
 	    transform: rotateY(-180deg);
 	}
 
-	
+
 	.back p {
 		position: absolute;
 		top: 40px;
@@ -1460,7 +1460,7 @@ select {
 					height: 2px;
 					background: transparent;
 				}
-				
+
 				&.active {
 					border: none;
 					background: none;
@@ -1547,7 +1547,7 @@ select {
 	position: relative;
 	// color: rgba(black, .7);
 	border-left: 2px solid $border-color;
-	
+
 	&::before {
 		content: attr(date-is);
 		position: absolute;
@@ -1612,7 +1612,7 @@ select {
 					color: $white;	
 					border-radius: 50%;
 				}
-				
+
 			}
 		}
 	}
